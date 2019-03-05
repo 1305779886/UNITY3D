@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 400006673}
   m_Layer: 0
   m_Name: Store
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,6 +120,9 @@ MonoBehaviour:
   hurt: {fileID: 21300344, guid: 05f7013716a0f184fa8b35bd29d20227, type: 3}
   boom: {fileID: 7383931222770759497, guid: cafe9da5647d27245aa22576300da89e, type: 3}
   score: {fileID: 8250723342185781629, guid: 37a1b0632c170f8419fadc53a6147b8c, type: 3}
+  hurtClip: {fileID: 0}
+  dead: {fileID: 0}
+  birdCollision: {fileID: 0}
   isPig: 0
 --- !u!61 &400006673
 BoxCollider2D:

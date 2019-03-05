@@ -60,18 +60,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GreenBird.cs" />
     <Compile Include="Assets\PocketRPG Trails\Scripts\Effects\WeaponTrail.cs" />
     <Compile Include="Assets\PocketRPG Trails\Scripts\Entities\BladeMaster.cs" />
     <Compile Include="Assets\PocketRPG Trails\Scripts\Utility\AnimationController.cs" />
     <Compile Include="Assets\Prefabs\PausePanel.cs" />
     <Compile Include="Assets\Scipts\Bird.cs" />
+    <Compile Include="Assets\Scipts\BlackBird.cs" />
     <Compile Include="Assets\Scipts\Boom.cs" />
     <Compile Include="Assets\Scipts\GameManager.cs" />
+    <Compile Include="Assets\Scipts\GreenBird.cs" />
     <Compile Include="Assets\Scipts\Pig.cs" />
     <Compile Include="Assets\Scipts\TestMyTrail.cs" />
     <Compile Include="Assets\Scipts\Win.cs" />
-    <Compile Include="Assets\YellowBird.cs" />
+    <Compile Include="Assets\Scipts\YellowBird.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/UNity 3D中文/代码/AngryBird/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

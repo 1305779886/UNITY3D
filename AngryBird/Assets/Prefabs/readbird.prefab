@@ -111,8 +111,8 @@ GameObject:
   - component: {fileID: 1331249349390729518}
   - component: {fileID: 1331249349390729519}
   - component: {fileID: 1331249349390729512}
-  - component: {fileID: 1331249349390729513}
   - component: {fileID: 1331249349390729515}
+  - component: {fileID: 1690703931100396153}
   m_Layer: 0
   m_Name: readbird
   m_TagString: Untagged
@@ -172,7 +172,7 @@ SpriteRenderer:
   m_SortingLayerID: 1888725595
   m_SortingLayer: 1
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300318, guid: 2a59ad4629f0acd42891dd6166621b80, type: 3}
+  m_Sprite: {fileID: 21300186, guid: 2a59ad4629f0acd42891dd6166621b80, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -239,8 +239,21 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.23
---- !u!114 &1331249349390729513
+  m_Radius: 0.32
+--- !u!114 &1331249349390729515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331249349390729522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907f12f7ec5276a46916c5738d625f6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myTrail: {fileID: 1331249348922475722}
+--- !u!114 &1690703931100396153
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -259,17 +272,8 @@ MonoBehaviour:
   left: {fileID: 0}
   leftPos: {fileID: 0}
   boom: {fileID: 7383931222770759497, guid: cafe9da5647d27245aa22576300da89e, type: 3}
+  myTrail: {fileID: 0}
   smooth: 3
---- !u!114 &1331249349390729515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331249349390729522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 907f12f7ec5276a46916c5738d625f6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myTrail: {fileID: 1331249348922475722}
+  select: {fileID: 8300000, guid: 3641c9435ad52ea429348437c2742cdb, type: 3}
+  fly: {fileID: 8300000, guid: 65774e057815a5e4fa70215e9acad616, type: 3}
+  hurt: {fileID: 21300132, guid: 2a59ad4629f0acd42891dd6166621b80, type: 3}

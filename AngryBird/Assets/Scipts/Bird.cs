@@ -17,7 +17,7 @@ public class Bird : MonoBehaviour
 
     public GameObject boom;
 
-    private TestMyTrail myTrail;
+    public TestMyTrail myTrail;
 
     private bool canMove = true;
     public float smooth = 3;
@@ -119,7 +119,7 @@ public class Bird : MonoBehaviour
     /// <summary>
     /// 下一只小鸟的飞出
     /// </summary>
-    void Next()
+    protected virtual void Next()
     {
         GameManager._instance.birds.Remove(this);
         Destroy(gameObject);
